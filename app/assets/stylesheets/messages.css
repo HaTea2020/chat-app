@@ -9,11 +9,36 @@
 .side_top{
   height: 100px;
   padding: 0px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.my_name a{
+  font-size: 16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+.new_chat{
+  font-size: 10px;
+}
+.new_chat a {
+  color: deepskyblue;
+  border: 1px solid lightblue;
+  padding: 14px;
+  text-decoration: none;
 }
 .side_under{
-  height: calc(100% - 100px);
+  height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0px 20px;
+  overflow: scroll;
+}
+.room{
+  padding: 20px 0px 40px;
+}
+.side_room_name a{
+  text-decoration: none;
+  color: white;
 }
 .main_chat{
   height: 100vh;
@@ -28,7 +53,7 @@
 .main_center{
   height: calc(100vh - 100px - 90px);
   background-color: #fafafa;
-  padding: 46px 40px 0px 40px;
+  padding: 46px 40px 0px;
 }
 .main_under{
   height: 90px;
